@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <title>Tu peso en el espacio</title>
+</head>
+<body>
+    <div class="espacio">
+        <h1>Descubre cual es tu peso en los diferentes cuerpos celestes del sistema solar</h1>
+        <h2>Por favor ingresa tu peso actual, los resultados seran devueltos en Kilogramos</h2><br>
+        <input type="text" class="kg" id="peso_init">
+        <input type="button" id="button" value="calcular" onclick="calcular()">
+    </div>
+    <div class="cuerpos">
+        <div class="luna">
+            <img src="img/luna.svg" alt=""> 
+            <span class="caja_lu" id="caja_lu">Tu peso en la Luna es de:</span>
+        </div>
+        <div class="mercurio">
+            <img src="img/mercurio.svg" alt="">
+            <span class="caja_me" id="caja_me">Tu peso en Mercurio es de :</span>
+        </div>
+        <div class="venus">
+            <img src="img/venus.svg" alt="">
+            <span class="caja_ve" id="caja_ve">Tu peso en Venus es de :</span>
+        </div>  
+        <div class="marte">
+            <img src="img/marte.svg" alt="">
+            <span class="caja_mar" id="caja_mar">Tu peso en Marte es de :</span>
+        </div>
+        <div class="jupiter">
+            <img src="img/jupiter.svg" alt="">
+            <span class="caja_jup" id="caja_jup">Tu peso en Jupiter es de :</span>
+        </div> 
+        <div class="saturno">
+            <img src="img/saturno.svg" alt="">
+            <span class="caja_sat" id="caja_sat">Tu peso en Saturno es de:</span>
+        </div>
+        <div class="urano">
+            <img src="img/uranus.svg" alt="">
+            <span class="caja_ur" id="caja_ur">Tu peso en Urano es de:</span>
+        </div>
+        <div class="neptuno">
+            <img src="img/neptuno.svg" alt="">
+            <span class="caja_nep" id="caja_nep">Tu peso en Neptuno es de:</span>
+        </div>
+        
+    </div>
+    
+
+    <script src="ts_files/peso_en_el_espacio.js"></script>
+</body>
+</html>

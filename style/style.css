@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+.kg{
+    height: 100px;
+    border-radius: 80px;
+     
+    
+}
+
+.espacio{
+    background: linear-gradient(to right, #210535, #430d4b, #7b337d, #c874b2, #f5d5e0);
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    padding-top: 65px;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 2rem;
+    
+    
+}
+
+.cuerpos{
+    background: linear-gradient(to right, #210535, #430d4b, #7b337d, #c874b2, #f5d5e0);
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.caja{
+    margin: 1rem 0 0 2.5rem;
+   border-radius: 80px;
+    height: 50px;
+}
+
+.caja_lu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+.caja_me{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_ve{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_mar{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_jup{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_sat{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_ur{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+.caja_nep{
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: aliceblue;
+}
+
+
+.luna{
+   height: 250px;
+   width: 250px;
+   margin-bottom: 5rem;
+   margin-left: 5rem;
+
+}
+
+
+
+.mercurio{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+
+.venus{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+.marte{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+
+.jupiter{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+
+
+.saturno{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+    margin-top: 9rem;
+    
+}
+
+
+.neptuno{
+    height: 250px;
+    width: 250px;
+    margin-left: 5rem;
+    margin-bottom: 5.25rem;
+   
+}
+
+.urano{
+    height: 250px;
+    width: 250px;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
