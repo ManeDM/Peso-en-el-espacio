@@ -1,5 +1,5 @@
 function calcular() {
-    var peso_tierra = document.getElementById("peso_init").value + "KG.";
+    var peso_tierra = document.getElementById("peso_init").value;
 
     var calculo_lun = parseInt(peso_tierra) * 1.66 / 9.81;
     document.getElementById('caja_lu').innerHTML = calculo_lun;
