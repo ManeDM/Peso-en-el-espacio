@@ -1,163 +1,113 @@
-*{
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: url(../img/background2.png) no-repeat;
+    font-size: 16px;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
- }
+  }
 
-.kg{
-    height: 100px;
-    border-radius: 80px;
+  #particles-js {
+    width: 100%;
+    height: 100%;
+    
 }
-
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-    margin: 0 0 30px 85px;
-
-}
-
-.espacio{
-    background: linear-gradient(to right, #210535, #430d4b, #7b337d, #c874b2, #f5d5e0);
-    display: flex;
-    justify-content: column;
-    align-items: center;
-    flex-wrap: wrap;
+  
+  /* Encabezado */
+  .espacio h1 {
+    font-size: 36px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: aliceblue;
-    padding-top: 65px;
-    display: block;
-    padding-top: 15px;
-    padding-bottom: 2rem;
-    
-    
-}
-
-.cuerpos{
-    background: linear-gradient(to right, #210535, #430d4b, #7b337d, #c874b2, #f5d5e0);
+  }
+  
+  .espacio h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Formulario */
+  .espacio input[type="text"] {
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 0 10px;
+    margin-left: 15rem;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .espacio input[type="button"] {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #0c1833;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .espacio input[type="button"]:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Cuerpos celestes */
+  .cuerpos {
     display: flex;
-    justify-content: column;
-    align-items: center;
     flex-wrap: wrap;
-    position: relative;
-}
-
-.caja{
-    margin: 1rem 0 0 2.5rem;
-   border-radius: 80px;
-    height: 50px;
-}
-
-.caja_lu{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-
-.caja_me{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_ve{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_mar{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_jup{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_sat{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_ur{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-.caja_nep{
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    color: aliceblue;
-}
-
-
-.luna{
-   height: 250px;
-   width: 250px;
-   margin-bottom: 5rem;
-   margin-left: 5rem;
-
-}
-
-
-
-.mercurio{
-    height: 250px;
-    width: 250px;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-}
-
-
-.venus{
-    height: 250px;
-    width: 250px;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-}
-
-.marte{
-    height: 250px;
-    width: 250px;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-}
-
-
-.jupiter{
-    height: 250px;
-    width: 250px;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-}
-
-
-
-.saturno{
-    height: 400px;
-    width: 400px;
-    margin-bottom: 5rem;
-    margin-left: 3rem;
-    margin-top: 9rem;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .cuerpos > div {
+    background-color: #152238;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .cuerpos > div h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .cuerpos > div img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .cuerpos > div span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 768px) {
+    .espacio input[type="text"],
+    .espacio input[type="button"] {
+      margin: 10px;
+      width: 80%;
+    }
     
-}
-
-
-.neptuno{
-    height: 250px;
-    width: 250px;
-    margin-left: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem;
-   
-}
-
-.urano{
-    height: 250px;
-    width: 250px;
-    margin-bottom: 5rem;
-    margin-left: 5rem;
-}
-
+    .cuerpos > div {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .espacio h1 {
+      font-size: 24px;
+    }
+    
+    .espacio h2 {
+      font-size: 18px;
+    }
+    
+    .cuerpos > div {
+      width: 100%;
+    }
+  }
